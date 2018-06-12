@@ -9,7 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *guessNumber;
+@property (weak, nonatomic) IBOutlet UITextField *numberShow;
+@property (weak, nonatomic) IBOutlet UILabel *tryNumber;
 
+
+- (IBAction)checkNumberButton:(id)sender;
+- (IBAction)restButton:(id)sender;
 
 @end
 

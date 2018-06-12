@@ -13,6 +13,7 @@
 		1B23BB3320BDC52F006C178F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B23BB3220BDC52F006C178F /* Assets.xcassets */; };
 		1B23BB3620BDC52F006C178F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B23BB3420BDC52F006C178F /* LaunchScreen.storyboard */; };
 		1B23BB3920BDC52F006C178F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B23BB3820BDC52F006C178F /* main.m */; };
+		1B23BB4020BDEE17006C178F /* tic-tac-toe-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B23BB3F20BDEE17006C178F /* tic-tac-toe-hi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1B23BB3520BDC52F006C178F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B23BB3720BDC52F006C178F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B23BB3820BDC52F006C178F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B23BB3F20BDEE17006C178F /* tic-tac-toe-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tic-tac-toe-hi.png"; path = "../../../Downloads/tic-tac-toe-hi.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		1B23BB2820BDC52A006C178F /* Guess Number */ = {
 			isa = PBXGroup;
 			children = (
+				1B23BB3F20BDEE17006C178F /* tic-tac-toe-hi.png */,
 				1B23BB2920BDC52A006C178F /* AppDelegate.h */,
 				1B23BB2A20BDC52A006C178F /* AppDelegate.m */,
 				1B23BB2C20BDC52A006C178F /* ViewController.h */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B23BB3620BDC52F006C178F /* LaunchScreen.storyboard in Resources */,
+				1B23BB4020BDEE17006C178F /* tic-tac-toe-hi.png in Resources */,
 				1B23BB3320BDC52F006C178F /* Assets.xcassets in Resources */,
 				1B23BB3120BDC52A006C178F /* Main.storyboard in Resources */,
 			);
